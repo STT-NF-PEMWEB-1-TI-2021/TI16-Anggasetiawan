@@ -1,0 +1,17 @@
+body {
+margin: 0;
+height: 10vh;
+}
+
+.navigasi{width: 100%;
+    background: none;
+    display: grid;
+    grid-template-columns: 20% 60% 20%; margin-left: 20px; margin-right: 20px;
+  "}
+
+.fdiv{padding: 5px margin-left: 10px;}
+
+h3{color: red}
+
+.siul{list-style: none; margin-top: 25px;}
+
