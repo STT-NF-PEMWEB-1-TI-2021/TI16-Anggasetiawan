@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox</title>
+    <style>
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .ikan {
+        width: 100%;
+        height: 100px;
+        background-color: lightsalmon;
+        border-radius: 10px;
+        box-shadow: 3px 5px 7px;
+      }
+      h1 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(201, 5, 5);
+      }
+      .ikan1 {
+        margin-top: 13px;
+        width: 30%;
+        height: 440px;
+        background-color: rgb(202, 34, 76);
+        border-radius: 10px;
+        box-shadow: 3px 5px 7px;
+      }
+      .ikan2 {
+        margin-top: 13px;
+        width: 69%;
+        height: 440px;
+        background-color: rgb(109, 14, 38);
+        border-radius: 10px;
+        box-shadow: 3px 5px 7px;
+      }
+
+      .anak-ikan1 {
+        margin: 70px;
+      }
+
+      .anak-ikan2 {
+        display: flex;
+        margin: 10px;
+      }
+      .anak-ikan2 > div {
+        margin: 10px;
+      }
+      .anak-ikan2 > div > img {
+        width: 100%;
+      }
+      .ikan3 {
+        margin-top: 13px;
+        width: 100%;
+        height: 100px;
+        background-color: lightsalmon;
+        border-radius: 10px;
+        box-shadow: 3px 5px 7px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ikan">
+        <h1>Header</h1>
+      </div>
+      <div class="ikan1"></div>
+      <div class="ikan2">
+        <div class="anak-ikan1">
+          <h1>Content</h1>
+        </div>
+        <div class="anak-ikan2">
+          <div>
+            <img
+              src="https://istanaflorist.com/wp-content/uploads/2021/02/jenis-bunga-lavender-dan-manfaatnya.jpg"
+            />
+          </div>
+          <div>
+            <img
+              src="https://istanaflorist.com/wp-content/uploads/2021/02/jenis-bunga-lavender-dan-manfaatnya.jpg"
+            />
+          </div>
+          <div>
+            <img
+              src="https://istanaflorist.com/wp-content/uploads/2021/02/jenis-bunga-lavender-dan-manfaatnya.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="ikan3"></div>
+    </div>
+  </body>
+</html>
