@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url('./indo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;}
+  .form-container {
+    align-content: center;
+    width: 400px;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 10% auto;
+    padding: 4rem 2rem;
+  }
+  
+  h1 {
+    text-align: center;}
+  
+  .user {
+    padding: 0.6rem;
+    width: 20rem;
+    margin: 6px 0;
+    border-radius: 10px;
+    background-color: grey; opacity: 30%;
+  }
+  
+  .pass {
+    padding: 0.6rem;
+    width: 20rem;
+    margin: 6px 0;
+    border-radius: 10px;
+    background-color: grey; opacity: 30%;
+  }
+  
+  .btn {
+    background-color: grey; opacity: 70%;
+    padding: 0.6rem;
+    margin: 10px 130px;
+    color: black;
+    font-size: 16px;
+    border-radius: 10px;
+    
+  }
+  
+  #bungkustext
+{   width:200px; margin: auto; padding: 10px 20px;
+    text-align:center;
+    color:black; font-size:24px; 
+}

@@ -1,0 +1,69 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    background-image: url('./indo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;}
+
+.form {
+    padding: 10px;
+    margin: 10px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+border-radius: 10px;
+border-color: orange;}
+
+.input-control input {
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 10px;
+    color: black; 
+}
+
+.input-control input:focus {
+    outline: 0;
+    color: black
+}
+
+.input-control.success input {
+    border-color: orange;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+.text_form {
+    text-align: center;
+}
+
+.submit-btn {
+    background: orange;
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px black;
+    cursor: pointer;
+    color: black;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin-left: 10px;
+    transition: 0.25s;
+    width: 153px;
+}
+
+.submit-btn:hover {
+    box-shadow: 0px 1px 18px #24c64f;
+}

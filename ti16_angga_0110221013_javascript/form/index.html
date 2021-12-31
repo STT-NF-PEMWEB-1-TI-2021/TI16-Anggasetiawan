@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="form.js"></script>
+  </head>
+
+  <body>
+    <h2 class="text_form">Form</h2>
+
+    <form
+      name="form"
+      class="form"
+      onsubmit="register(event)"
+      autocomplete="off"
+    >
+      <div class="input-control">
+        <label for="nama_pelanggan">Nama</label>
+        <input type="text" name="nama_pelanggan" id="nama_pelanggan" />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="email">E-mail</label>
+        <input type="text" name="email" id="email" />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="jam_keberangkatan">Jam Keberangkatan</label>
+        <input type="text" name="jam_keberangkatan" id="jam_keberangkatan" />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="tujuan_keberangkatan">Tujuan Keberangkatan</label>
+        <input
+          type="text"
+          name="tujuan_keberangkatan"
+          id="tujuan_keberangkatan"
+        />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="jumlah_tiket">Jumlah Tiket</label>
+        <input type="text" name="jumlah_tiket" id="jumlah_tiket" />
+        <div class="error"></div>
+      </div>
+
+      <input class="submit-btn" type="submit" value="Submit" />
+    </form>
+
+    <div id="preview"></div>
+  </body>
+</html>
